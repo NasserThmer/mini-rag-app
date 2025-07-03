@@ -1,11 +1,11 @@
-from fastapi import FastAPI , APIRouter , Depends , UploadFile
+from fastapi import FastAPI , APIRouter , Depends , UploadFile 
 import os
 from helpers.config import get_settings , Settings
 from controllers import DataController
 
 data_router = APIRouter(
     prefix="/api/v1/data",
-    tags=["api_v1 , data"],
+    tags=["api_v1" , "data"],
 )
 
 @data_router.post("/upload/{project_id}")
