@@ -1,5 +1,5 @@
 from .BaseController import BaseController
-from fastiapi import UploadFile
+from fastapi  import UploadFile
 
 class DataController(BaseController):
     def __init__(self):

@@ -1,4 +1,4 @@
-from fastapi import FastAPI 
+from fastapi  import FastAPI 
 from routes import base # Assuming base.py is in the routes directory
 from routes import data # Assuming data.py is in the routes directory
 

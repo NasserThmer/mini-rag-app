@@ -15,6 +15,6 @@ async def upload_data(project_id: str, file: UploadFile,
     
 
     # validate the size file propersties 
-    is_valid= DataController().validate_upload_file(file=file)
+    is_valid= DataController().validate_uploaded_file(file=file)
 
     return is_valid
